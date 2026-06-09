@@ -173,7 +173,6 @@
                 <span class="form-error" id="frequencia-error" role="alert">Selecione a frequência de geração.</span>
               </div>
 
-              <!-- Estado (IBGE) -->
               <div class="form-group" id="group-estado">
                 <label for="select-estado" class="form-label">
                   Estado
@@ -182,11 +181,10 @@
                 <select class="form-select" id="select-estado" name="estado" required aria-required="true" aria-describedby="estado-hint estado-error">
                   <option value="">Carregando estados...</option>
                 </select>
-                <span class="form-hint" id="estado-hint">Dados via API IBGE.</span>
+                
                 <span class="form-error" id="estado-error" role="alert">Selecione o estado.</span>
               </div>
 
-              <!-- Município (IBGE — dependente do estado) -->
               <div class="form-group" id="group-municipio">
                 <label for="select-municipio" class="form-label">
                   Município
@@ -306,7 +304,5 @@
 
   </div>
 
-  <script src="js/main.js"></script>
-  <script src="js/cadastro-lote.js"></script>
 </body>
 </html>
